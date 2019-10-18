@@ -1,14 +1,22 @@
 import React, { Fragment } from 'react';
+import Hero from '../mainLayout/Hero';
+import Banner from '../mainLayout/Banner';
+import Services from '../sections/Services';
+import FeaturedSpaces from '../sections/FeaturedSpaces';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <Fragment>
-    <div className='hero1'>
-      <div className='hero1-box text-center bg-dark opac'><h1>Resort Rentals</h1></div>
-    </div>
-    <div className='container'>
-    <h1>Our Spaces</h1>
-    </div>
+      <Hero>
+        <Banner title='desireable rooms' subtitle='starting at $399'>
+          <Link to='/spaces' className='btn btn-primary'>
+            our spaces
+          </Link>
+        </Banner>
+      </Hero>
+      <Services></Services>
+      <FeaturedSpaces></FeaturedSpaces>
     </Fragment>
   );
 };
