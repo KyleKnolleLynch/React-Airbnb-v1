@@ -2,8 +2,8 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #a09a77;
-  --secondary-color: #dfd5ab;
+  --primary-color: #928d6e;
+  --secondary-color: #d6d5cd;
   --light-color: #f4f4f4;
   --dark-color: #111111;
   --white-color: #fff;
@@ -79,6 +79,10 @@ img {
 
 .text-primary {
   color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
 }
 
 .text-dark {
@@ -209,10 +213,10 @@ img {
   grid-gap: 1rem;
 }
 
-.grid-4 {
+.grid-sections {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  grid-gap: 3rem;
 }
 
 .btn {
@@ -269,6 +273,14 @@ img {
 .badge-primary,
 .alert-primary {
   background: var(--primary-color);
+  color: var(--white-color);
+}
+
+.btn-secondary,
+.bg-secondary,
+.badge-secondary,
+.alert-secondary {
+  background: var(--secondary-color);
   color: var(--white-color);
 }
 
@@ -475,6 +487,23 @@ table th {
   letter-spacing: var(--textSpacing);
 }
 
+.section-title div {
+  width: 7rem;
+  height: 0.2rem;
+  background: var(--primary-color);
+  margin: 1.7rem auto;
+}
+
+.services-icons {
+  font-size: 2rem;
+}
+
+.section-services h5 {
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  letter-spacing: var(--textSpacing);
+}
+
 /* Mobile Styles */
 @media screen and (max-width: 700px) {
   .hide-sm {
@@ -539,7 +568,8 @@ table th {
     padding: 0.7rem 0.5rem;
   }
 
-  .nav-icon {
+  .nav-icon,
+  .services-icons {
     font-size: 1.4rem;
   }
 }
