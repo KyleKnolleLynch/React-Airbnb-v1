@@ -454,14 +454,15 @@ table th {
 .defaultHero,
 .spacesHero {
   min-height: calc(100vh - 66px);
-  background: url('../images/hero1.jpg') center center / cover no-repeat;
+  background: url('../images/heros/hero1.jpg') center center / cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .spacesHero {
-  background: url('../images/spaces-hero.jpg') center center/ cover no-repeat;
+  background: url('../images/heros/spaces-hero.jpg') center center/ cover
+    no-repeat;
   min-height: 60vh;
 }
 
@@ -502,6 +503,56 @@ table th {
   margin-bottom: 1rem;
   text-transform: capitalize;
   letter-spacing: var(--textSpacing);
+}
+
+.section-featured {
+}
+
+.space-img-container {
+  position: relative;
+  margin-bottom: -6px;
+}
+
+.space-price {
+  position: absolute;
+  top: 0;
+  left: 0rem;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 0.1rem 0.5rem;
+  border-radius: 0 0 10px 0;
+}
+
+.space-price :nth-child(2) {
+  font-size: 0.6rem;
+  margin-top: -0.2rem;
+}
+
+.space-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: scale(0);
+  border-radius: 5px;
+}
+
+.space-btn:hover {
+  color: var(--dark-color);
+}
+
+.space-box:hover .space-btn {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.space-box h3 {
+  padding: 0.1rem 0.5rem;
+  text-transform: capitalize;
+}
+
+.spinner-gif {
+  text-transform: capitalize;
+}
+.spinner-gif img {
+  width: 5rem;
 }
 
 /* Mobile Styles */
@@ -560,7 +611,8 @@ table th {
 
 @media screen and (max-width: 450px) {
   body,
-  .nav-head a {
+  .nav-head a,
+  .banner {
     font-size: 0.8rem;
   }
 
@@ -569,7 +621,8 @@ table th {
   }
 
   .nav-icon,
-  .services-icons {
+  .services-icons,
+  .banner h1 {
     font-size: 1.4rem;
   }
 }
