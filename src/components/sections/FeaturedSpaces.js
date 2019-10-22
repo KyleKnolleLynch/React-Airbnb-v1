@@ -8,23 +8,19 @@ class FeaturedSpaces extends Component {
   static contextType = SpacesContext;
 
   render() {
-    const { featuredSpaces, loading } = this.context;
-    console.log(featuredSpaces);
+    let { featuredSpaces, loading } = this.context;
+    featuredSpaces = featuredSpaces.map(space => (
+      <Space key={space.id} space={space} />
+    ));
 
-    if (loading) {
-      return <Spinner />;
-    } else {
-      return (
-        <section className='section-featured container'>
-          <Title title='featured spaces' />
-          <div className='grid-sections my-2'>
-            {featuredSpaces.map(space => (
-              <Space key={space.id} name={space.name} price={space.price} image={space.images[0]} />
-            ))}
-          </div>
-        </section>
-      );
-    }
+    return (
+      <section className='section-featured container'>
+        <Title title='featured spaces' />
+        <div className='grid-sections my-2'>
+          {loading ? <Spinner /> : featuredSpaces}
+        </div>
+      </section>
+    );
   }
 }
 

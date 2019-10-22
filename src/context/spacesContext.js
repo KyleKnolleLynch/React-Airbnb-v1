@@ -26,7 +26,7 @@ class SpacesProvider extends Component {
     });
   }
 
-  formatData(items) {
+  formatData = items => {
     let tempItems = items.map(item => {
       let id = item.sys.id;
       let images = item.fields.images.map(img => img.fields.file.url);
@@ -34,11 +34,19 @@ class SpacesProvider extends Component {
       return space;
     });
     return tempItems;
-  }
+  };
+
+  getSpace = slug => {
+    let tempSpaces = [...this.state.spaces];
+    const space = tempSpaces.find(space => space.slug === slug);
+    return space;
+  };
 
   render() {
     return (
-      <SpacesContext.Provider value={{ ...this.state }}>
+      <SpacesContext.Provider
+        value={{ ...this.state, getSpace: this.getSpace }}
+      >
         {this.props.children}
       </SpacesContext.Provider>
     );

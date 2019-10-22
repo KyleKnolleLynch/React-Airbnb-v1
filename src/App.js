@@ -18,7 +18,7 @@ const App = () => {
           <Switch>
             <Route exact path='/' component={Home} />
             <Route exact path='/spaces/' component={Spaces} />
-            <Route exact path='/spaces/:single' component={SingleSpace} />
+            <Route exact path='/spaces/:slug' component={SingleSpace} />
             <Route component={NotFound} />
           </Switch>
         </Fragment>

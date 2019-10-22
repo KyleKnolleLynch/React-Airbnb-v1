@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-  color: var(--light-color);
+  color: var(--dark-color);
 }
 
 ul {
@@ -520,11 +520,13 @@ table th {
   background: rgba(0, 0, 0, 0.8);
   padding: 0.1rem 0.5rem;
   border-radius: 0 0 10px 0;
+  letter-spacing: var(--textSpacing);
 }
 
 .space-price :nth-child(2) {
   font-size: 0.6rem;
   margin-top: -0.2rem;
+  letter-spacing: initial;
 }
 
 .space-btn {
@@ -533,10 +535,7 @@ table th {
   left: 50%;
   transform: scale(0);
   border-radius: 5px;
-}
-
-.space-btn:hover {
-  color: var(--dark-color);
+  letter-spacing: var(--textSpacing);
 }
 
 .space-box:hover .space-btn {
@@ -545,6 +544,16 @@ table th {
 
 .space-box h3 {
   padding: 0.1rem 0.5rem;
+  text-transform: capitalize;
+  letter-spacing: var(--textSpacing);
+}
+
+.single-space-err h2 {
+  margin-top: 6rem;
+}
+
+.link-err {
+  letter-spacing: var(--textSpacing);
   text-transform: capitalize;
 }
 
