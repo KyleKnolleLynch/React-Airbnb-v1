@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import defaultImg from '../../images/spaces/room-1.jpg';
-import Hero from '../mainLayout/Hero';
+import defaultImg from '../../images/spaces/room-5.jpg';
 import Banner from '../mainLayout/Banner';
+import StyledHero from '../mainLayout/StyledHero';
 import { Link } from 'react-router-dom';
 import { SpacesContext } from '../../context/spacesContext';
 
@@ -11,7 +11,7 @@ class SingleSpace extends Component {
 
     this.state = {
       slug: this.props.match.params.slug,
-      defaultImg: ''
+      defaultImg
     };
   }
 
@@ -36,10 +36,24 @@ class SingleSpace extends Component {
         </div>
       );
     }
+    const {
+      name,
+      description,
+      images,
+      size,
+      price,
+      capacity,
+      extras,
+      pets,
+      breakfast
+    } = space;
     return (
       <div>
-        <h1 className='py-2'>hello from single space</h1>
-        {space.name}
+        <StyledHero hero={images[0] || this.state.defaultImg}>
+          <Banner title={`${name} room`}>
+            <Link to='/spaces' className='btn btn-primary'>back to spaces</Link>
+          </Banner>
+        </StyledHero>
       </div>
     );
   }

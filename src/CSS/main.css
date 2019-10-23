@@ -433,23 +433,6 @@ table th {
   color: var(--grey-color);
 }
 
-/* CSSTransition Group*/
-
-.item-enter {
-  opacity: 0;
-}
-.item-enter-active {
-  opacity: 1;
-  transition: opacity 1000ms ease-in;
-}
-.item-exit {
-  opacity: 1;
-}
-.item-exit-active {
-  opacity: 0;
-  transition: opacity 1000ms ease-in;
-}
-
 /*                      */
 .defaultHero,
 .spacesHero {
@@ -505,9 +488,6 @@ table th {
   letter-spacing: var(--textSpacing);
 }
 
-.section-featured {
-}
-
 .space-img-container {
   position: relative;
   margin-bottom: -6px;
@@ -536,6 +516,7 @@ table th {
   transform: scale(0);
   border-radius: 5px;
   letter-spacing: var(--textSpacing);
+  text-transform: capitalize;
 }
 
 .space-box:hover .space-btn {
@@ -562,6 +543,23 @@ table th {
 }
 .spinner-gif img {
   width: 5rem;
+}
+
+/* CSSTransition Group*/
+
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms ease-in;
 }
 
 /* Mobile Styles */

@@ -17,7 +17,7 @@ const Space = ({ space }) => {
           to={`/spaces/${slug}`}
           className='btn btn-primary space-btn transition'
         >
-          Features
+          details
         </Link>
       </div>
       <h3 className='text-center text-dark'>{name}</h3>

@@ -4,4 +4,6 @@
 *  React
 *  React Router
 *  React Icons
+*  Context API
 *  CSS
+*  Styled Components
