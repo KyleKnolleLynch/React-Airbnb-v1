@@ -4,6 +4,7 @@
 :root {
   --primary-color: #928d6e;
   --secondary-color: #d6d5cd;
+  --primaryDark: #706d55;
   --light-color: #f4f4f4;
   --dark-color: #111111;
   --white-color: #fff;
@@ -83,6 +84,10 @@ img {
 
 .text-secondary {
   color: var(--secondary-color);
+}
+
+.text-primary-dark {
+  color: var(--primaryDark);
 }
 
 .text-dark {
@@ -387,6 +392,7 @@ table td {
 
 table th {
   background: var(--light-color);
+  text-align: center;
 }
 
 /* Navbar */
@@ -538,6 +544,18 @@ table th {
   text-transform: capitalize;
 }
 
+.single-space-info {
+  text-transform: capitalize;
+}
+
+.single-space-includes {
+  grid-column: span 2;
+}
+
+.single-space-includes {
+  display: inline;
+}
+
 .spinner-gif {
   text-transform: capitalize;
 }
@@ -584,10 +602,12 @@ table th {
   }
 
   .lead {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
   }
 
-  .not-found {
+  .not-found,
+  .single-space-info {
     font-size: 0.8rem;
   }
 
@@ -613,6 +633,12 @@ table th {
 
   .nav-show {
     height: 12ch;
+  }
+  .single-space-list {
+    grid-column: span 2;
+  }
+  .single-space-desc {
+    text-align: center;
   }
 }
 
