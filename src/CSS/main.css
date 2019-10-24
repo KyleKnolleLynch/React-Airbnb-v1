@@ -552,10 +552,6 @@ table th {
   grid-column: span 2;
 }
 
-.single-space-includes {
-  display: inline;
-}
-
 .spinner-gif {
   text-transform: capitalize;
 }
@@ -634,8 +630,9 @@ table th {
   .nav-show {
     height: 12ch;
   }
-  .single-space-list {
-    grid-column: span 2;
+
+  .single-space-includes {
+    grid-column: initial;
   }
   .single-space-desc {
     text-align: center;

@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import Hero from '../mainLayout/Hero';
 import Banner from '../mainLayout/Banner';
 import Services from '../sections/Services';
-import FeaturedSpaces from '../sections/FeaturedSpaces';
+import FeaturedSpaces from '../sections/sectionsFeatured/FeaturedSpaces';
 import { Link } from 'react-router-dom';
 
 const Home = () => {

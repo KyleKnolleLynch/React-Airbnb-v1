@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Hero from '../mainLayout/Hero';
 import Banner from '../mainLayout/Banner';
+import Title from '../sections/sectionsLayout/Title';
+import SpacesContainer from '../sections/sectionsSpaces/SpacesContainer';
 import { Link } from 'react-router-dom';
 
 const Spaces = () => {
   return (
-    <div>
+    <Fragment>
       <Hero hero={'spacesHero'}>
         <Banner title='our spaces'>
           <Link to='/' className='btn btn-primary'>
@@ -13,7 +15,9 @@ const Spaces = () => {
           </Link>
         </Banner>
       </Hero>
-    </div>
+      <Title title='search spaces' />
+      <SpacesContainer />
+    </Fragment>
   );
 };
 

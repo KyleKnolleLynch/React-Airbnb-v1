@@ -101,12 +101,14 @@ class SingleSpace extends Component {
               <p>{description}</p>
             </article>
             <article className='single-space-includes text-center'>
-              <h2 className='lead'>Includes: </h2>
-              {extras.map((item, index) => (
-                <h4 key={index} className='text-primary-dark'>
-                  {item}
-                </h4>
-              ))}
+              <h5 className='my-1'>Includes: </h5>
+              <ul>
+                {extras.map((item, index) => (
+                  <li key={index} className='text-primary-dark'>
+                    <p> - {item}</p>
+                  </li>
+                ))}
+              </ul>
             </article>
           </div>
         </section>
