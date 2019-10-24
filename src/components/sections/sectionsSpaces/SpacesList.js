@@ -1,10 +1,20 @@
 import React from 'react';
+import Space from '../Space';
 
-const SpacesList = () => {
+const SpacesList = ({ spaces }) => {
+  if (spaces.length === 0) {
+    return (
+      <div className='container text-center'>
+        <h2>Sorry, none of our spaces matched your search criteria.</h2>
+      </div>
+    );
+  }
   return (
-    <div>
-      <h1>Hello from SpacesList</h1>
-    </div>
+    <section className='container grid-sections my-3'>
+      {spaces.map(space => (
+        <Space key={space.id} space={space} />
+      ))}
+    </section>
   );
 };
 

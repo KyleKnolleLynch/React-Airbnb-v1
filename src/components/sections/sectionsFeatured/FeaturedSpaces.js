@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { SpacesContext } from '../../../context/spacesContext';
 import Title from '../sectionsLayout/Title';
 import Spinner from '../../mainLayout/Spinner';
-import Space from './Space';
+import Space from '../Space';
 
 class FeaturedSpaces extends Component {
   static contextType = SpacesContext;

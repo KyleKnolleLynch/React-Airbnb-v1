@@ -46,6 +46,8 @@ ul {
 
 img {
   width: 100%;
+  height: 16rem;
+  object-fit: cover;
 }
 
 /* Utilities */
@@ -220,8 +222,8 @@ img {
 
 .grid-sections {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  grid-gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  grid-gap: 2rem;
 }
 
 .btn {
@@ -377,6 +379,8 @@ textarea {
   padding: 0.4rem;
   font-size: 1.2rem;
   border: 1px solid #ccc;
+  outline: transparent;
+  cursor: pointer;
 }
 
 input[type='submit'],
@@ -552,6 +556,10 @@ table th {
   grid-column: span 2;
 }
 
+/* .filter-form  {
+
+} */
+
 .spinner-gif {
   text-transform: capitalize;
 }
@@ -646,6 +654,10 @@ table th {
     font-size: 0.8rem;
   }
 
+  .container {
+    padding: 0 1rem;
+  }
+
   .navbar {
     padding: 0.7rem 0.5rem;
   }
@@ -654,5 +666,8 @@ table th {
   .services-icons,
   .banner h1 {
     font-size: 1.4rem;
+  }
+  .grid-sections {
+    grid-gap: 1rem;
   }
 }

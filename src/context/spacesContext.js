@@ -8,7 +8,16 @@ class SpacesProvider extends Component {
     spaces: [],
     sortedSpaces: [],
     featuredSpaces: [],
-    loading: true
+    loading: true,
+    type: 'all',
+    capacity: 1,
+    price: 0,
+    minPrice: 0,
+    maxPrice: 0,
+    minSize: 0,
+    maxSize: 0,
+    breakfast: false,
+    pets: false
   };
 
   //  getData
@@ -18,11 +27,17 @@ class SpacesProvider extends Component {
     let spaces = this.formatData(items);
     let featuredSpaces = spaces.filter(space => space.featured);
 
+    let maxPrice = Math.max(...spaces.map(space => space.price));
+    let maxSize = Math.max(...spaces.map(space => space.size));
+
     this.setState({
       spaces,
       sortedSpaces: spaces,
       featuredSpaces,
-      loading: false
+      loading: false,
+      price: maxPrice,
+      maxPrice, 
+      maxSize
     });
   }
 
@@ -42,10 +57,24 @@ class SpacesProvider extends Component {
     return space;
   };
 
+  handleChange = e => {
+    const type = e.target.type;
+    const name = e.target.name;
+    const value = e.target.value;
+    console.log(type, name, value);
+  }
+
+  filterSpaces = () => {
+    console.log('hello from filterSpaces');
+  }
+
   render() {
     return (
       <SpacesContext.Provider
-        value={{ ...this.state, getSpace: this.getSpace }}
+        value={{ ...this.state,
+           getSpace: this.getSpace,
+           handleChange: this.handleChange
+          }}
       >
         {this.props.children}
       </SpacesContext.Provider>
@@ -54,5 +83,17 @@ class SpacesProvider extends Component {
 }
 
 const SpacesConsumer = SpacesContext.Consumer;
+
+//    Higher order component method   //
+
+// export function withSpacesConsumer(Component) {
+//   return function ConsumerWrapper(props) { 
+//     return <SpacesConsumer>
+//       {value => <Component {...props} context={value} />}
+//     </SpacesConsumer>
+//   }
+// }
+
+
 
 export { SpacesProvider, SpacesConsumer, SpacesContext };
