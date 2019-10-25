@@ -224,6 +224,7 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
   grid-gap: 2rem;
+  justify-items: center;
 }
 
 .btn {
@@ -368,10 +369,16 @@ input {
   color: var(--grey-color);
 }
 
+.form-group {
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
 input[type='text'],
 input[type='email'],
 input[type='password'],
 input[type='date'],
+input[type='range'],
 select,
 textarea {
   display: block;
@@ -556,9 +563,27 @@ table th {
   grid-column: span 2;
 }
 
-/* .filter-form  {
+.spaces-list {
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+}
 
-} */
+.filter-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr minmax(8rem, 1fr) 8rem 1fr;
+  grid-gap: 1rem;
+}
+
+.form-group {
+  max-width: 18rem;
+}
+
+.size-input {
+  width: 3rem;
+}
+
+.size-input:nth-child(1) {
+  margin-right: 0.5rem;
+}
 
 .spinner-gif {
   text-transform: capitalize;
@@ -644,6 +669,10 @@ table th {
   }
   .single-space-desc {
     text-align: center;
+  }
+
+  .filter-form {
+    grid-template-columns: 1fr;
   }
 }
 

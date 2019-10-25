@@ -10,7 +10,7 @@ const SpacesList = ({ spaces }) => {
     );
   }
   return (
-    <section className='container grid-sections my-3'>
+    <section className='container grid-sections my-3 spaces-list'>
       {spaces.map(space => (
         <Space key={space.id} space={space} />
       ))}

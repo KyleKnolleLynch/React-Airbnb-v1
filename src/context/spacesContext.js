@@ -36,7 +36,7 @@ class SpacesProvider extends Component {
       featuredSpaces,
       loading: false,
       price: maxPrice,
-      maxPrice, 
+      maxPrice,
       maxSize
     });
   }
@@ -58,23 +58,57 @@ class SpacesProvider extends Component {
   };
 
   handleChange = e => {
-    const type = e.target.type;
+    const target = e.target;
+    const value = e.type === 'checkbox' ? target.checked : target.value;
     const name = e.target.name;
-    const value = e.target.value;
-    console.log(type, name, value);
-  }
+    this.setState(
+      {
+        [name]: value
+      },
+      this.filterSpaces
+    );
+  };
 
   filterSpaces = () => {
-    console.log('hello from filterSpaces');
-  }
+    let {
+      spaces,
+      type,
+      capacity,
+      price,
+      minSize,
+      maxSize,
+      breakfast,
+      pets
+    } = this.state;
+
+    let tempSpaces = [...spaces];
+
+    capacity = parseInt(capacity);
+    price = parseInt(price);
+
+    if (type !== 'all') {
+      tempSpaces = tempSpaces.filter(space => space.type === type);
+    }
+
+    if (capacity !== 1) {
+      tempSpaces = tempSpaces.filter(space => space.capacity >= capacity);
+    }
+
+    tempSpaces = tempSpaces.filter(space => space.price < price);
+
+    this.setState({
+      sortedSpaces: tempSpaces
+    });
+  };
 
   render() {
     return (
       <SpacesContext.Provider
-        value={{ ...this.state,
-           getSpace: this.getSpace,
-           handleChange: this.handleChange
-          }}
+        value={{
+          ...this.state,
+          getSpace: this.getSpace,
+          handleChange: this.handleChange
+        }}
       >
         {this.props.children}
       </SpacesContext.Provider>
@@ -87,13 +121,11 @@ const SpacesConsumer = SpacesContext.Consumer;
 //    Higher order component method   //
 
 // export function withSpacesConsumer(Component) {
-//   return function ConsumerWrapper(props) { 
+//   return function ConsumerWrapper(props) {
 //     return <SpacesConsumer>
 //       {value => <Component {...props} context={value} />}
 //     </SpacesConsumer>
 //   }
 // }
-
-
 
 export { SpacesProvider, SpacesConsumer, SpacesContext };
