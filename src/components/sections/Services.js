@@ -48,9 +48,11 @@ const Services = () => {
       <div className='container'>
         <Title title='services' />
         <div className='grid-sections my-2 text-center text-primary'>
-          {servicesState.services.map(item=> (
+          {servicesState.services.map(item => (
             <article key={item.id} className='service-box p'>
-              <span className='services-icons'>{item.icon}{' '}&nbsp;{item.icon2}</span>
+              <span className='services-icons'>
+                {item.icon} &nbsp;{item.icon2}
+              </span>
               <h5>{item.title}</h5>
               <p>{item.info}</p>
             </article>

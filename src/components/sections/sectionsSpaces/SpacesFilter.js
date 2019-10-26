@@ -45,7 +45,6 @@ const SpacesFilter = () => {
   return (
     <section className='container space-filter'>
       <form className='filter-form'>
-        {/* select type */}
         <div className='form-group my'>
           <label htmlFor='type'>
             <strong>space type</strong>
@@ -60,8 +59,6 @@ const SpacesFilter = () => {
             {types}
           </select>
         </div>
-        {/* end select type */}
-        {/*guests */}
         <div className='form-group my'>
           <label htmlFor='capacity'>
             <strong>guests</strong>
@@ -76,8 +73,6 @@ const SpacesFilter = () => {
             {guests}
           </select>
         </div>
-        {/* end guest */}
-        {/* price */}
         <div className='form-group my'>
           <label htmlFor='price'>
             <strong>space price ${price}</strong>
@@ -92,8 +87,6 @@ const SpacesFilter = () => {
             onChange={handleChange}
           />
         </div>
-        {/* end price */}
-        {/* size */}
         <div className='form-group my'>
           <label htmlFor='size'>
             <strong>space size</strong>
@@ -117,8 +110,6 @@ const SpacesFilter = () => {
             />
           </div>
         </div>
-        {/* end size */}
-        {/*  extras  */}
         <div className='form-group'>
           <div className='single-extra'>
             <input
@@ -141,7 +132,6 @@ const SpacesFilter = () => {
             <label htmlFor='pets'>pets</label>
           </div>
         </div>
-        {/*  end extras  */}
       </form>
     </section>
   );

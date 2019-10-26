@@ -1,4 +1,4 @@
-import room1 from './images/details/details-1.jpg';
+// import room1 from './images/details/details-1.jpg';
 import room2 from './images/details/details-2.jpg';
 import room3 from './images/details/details-3.jpg';
 import room4 from './images/details/details-4.jpg';

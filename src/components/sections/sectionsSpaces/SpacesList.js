@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import Space from '../Space';
 
 const SpacesList = ({ spaces }) => {
@@ -16,6 +18,10 @@ const SpacesList = ({ spaces }) => {
       ))}
     </section>
   );
+};
+
+SpacesList.propTypes = {
+  spaces: PropTypes.array.isRequired
 };
 
 export default SpacesList;

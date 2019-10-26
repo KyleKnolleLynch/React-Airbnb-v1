@@ -24,7 +24,6 @@
 // export default withSpacesConsumer(SpacesContainer);
 // ---    ---   ---    ---    //
 
-
 //    useContext Hook method    //
 
 import React, { useContext } from 'react';
@@ -49,7 +48,6 @@ const SpacesContainer = () => {
 
 export default SpacesContainer;
 //  ---   ---   ---   ---   //
-
 
 //    Consumer with callback method    //
 
