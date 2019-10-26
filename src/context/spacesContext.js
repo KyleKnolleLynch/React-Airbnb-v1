@@ -27,7 +27,7 @@ class SpacesProvider extends Component {
     let spaces = this.formatData(items);
     let featuredSpaces = spaces.filter(space => space.featured);
 
-    let maxPrice = Math.max(...spaces.map(space => space.price));
+    let maxPrice = Math.max(...spaces.map(space => space.price + 1));
     let maxSize = Math.max(...spaces.map(space => space.size));
 
     this.setState({
@@ -59,8 +59,8 @@ class SpacesProvider extends Component {
 
   handleChange = e => {
     const target = e.target;
-    const value = e.type === 'checkbox' ? target.checked : target.value;
-    const name = e.target.name;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+    const name = target.name;
     this.setState(
       {
         [name]: value
@@ -95,6 +95,18 @@ class SpacesProvider extends Component {
     }
 
     tempSpaces = tempSpaces.filter(space => space.price < price);
+
+    tempSpaces = tempSpaces.filter(
+      space => space.size >= minSize && space.size <= maxSize
+    );
+
+    if (breakfast) {
+      tempSpaces = tempSpaces.filter(space => space.breakfast === true);
+    }
+
+    if (pets) {
+      tempSpaces = tempSpaces.filter(space => space.pets === true);
+    }
 
     this.setState({
       sortedSpaces: tempSpaces

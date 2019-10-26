@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <Fragment>
       <Hero>
-        <Banner title='desireable rooms' subtitle='starting at $199'>
+        <Banner title='desireable rooms' subtitle='starting at $99'>
           <Link to='/spaces' className='btn btn-primary'>
             our spaces
           </Link>
