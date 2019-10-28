@@ -604,7 +604,9 @@ table th {
   text-transform: capitalize;
 }
 .spinner-gif img {
-  width: 5rem;
+  width: 7rem;
+  height: 7rem;
+  object-fit: initial;
 }
 
 /* CSSTransition Group*/

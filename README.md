@@ -1,9 +1,10 @@
-#  React Airbnb v1
+#  Resort Rentals with React
 
-## Airbnb clone built with..
+## Resort Rentals built with..
 *  React
 *  React Router
 *  React Icons
 *  Context API
 *  CSS
 *  Styled Components
+*  Contentful for data storage

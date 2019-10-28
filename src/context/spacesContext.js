@@ -1,5 +1,5 @@
 import React, { Component, createContext } from 'react';
-import items from '../data';
+import Client from '../Contentful';
 
 const SpacesContext = createContext();
 
@@ -20,25 +20,34 @@ class SpacesProvider extends Component {
     pets: false
   };
 
-  //  getData
+  getData = async () => {
+    try {
+      let res = await Client.getEntries({
+        content_type: 'resortRentalSpace',
+        order: 'fields.price'
+      });
+      let spaces = this.formatData(res.items);
+      let featuredSpaces = spaces.filter(space => space.featured);
+
+      let maxPrice = Math.max(...spaces.map(space => space.price + 1));
+      let maxSize = Math.max(...spaces.map(space => space.size));
+
+      this.setState({
+        spaces,
+        sortedSpaces: spaces,
+        featuredSpaces,
+        loading: false,
+        price: maxPrice,
+        maxPrice,
+        maxSize
+      });
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
   componentDidMount() {
-    //  this.getData;
-    let spaces = this.formatData(items);
-    let featuredSpaces = spaces.filter(space => space.featured);
-
-    let maxPrice = Math.max(...spaces.map(space => space.price + 1));
-    let maxSize = Math.max(...spaces.map(space => space.size));
-
-    this.setState({
-      spaces,
-      sortedSpaces: spaces,
-      featuredSpaces,
-      loading: false,
-      price: maxPrice,
-      maxPrice,
-      maxSize
-    });
+    this.getData();
   }
 
   formatData = items => {
