@@ -20,7 +20,7 @@ import img14 from './images/spaces/room-14.jpg';
 export default [
   {
     sys: {
-      id: '1'
+      id: '1',
     },
     fields: {
       name: 'single economy',
@@ -35,49 +35,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        "Plush pillows and breathable bed linens",
-        "Soft, oversized bath towels",
-        "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
-        "Adequate safety/security",
-        "Internet",
-        "Comfortable beds"
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img13
-            }
-          }
+              url: img13,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '2'
+      id: '2',
     },
     fields: {
       name: 'single basic',
@@ -92,49 +92,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img2
-            }
-          }
+              url: img2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '3'
+      id: '3',
     },
     fields: {
       name: 'single standard',
@@ -149,49 +149,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img14
-            }
-          }
+              url: img14,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '4'
+      id: '4',
     },
     fields: {
       name: 'single deluxe',
@@ -206,49 +206,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img4
-            }
-          }
+              url: img4,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '5'
+      id: '5',
     },
     fields: {
       name: 'double economy',
@@ -263,49 +263,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img5
-            }
-          }
+              url: img5,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '6'
+      id: '6',
     },
     fields: {
       name: 'double basic',
@@ -320,49 +320,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img6
-            }
-          }
+              url: img6,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '7'
+      id: '7',
     },
     fields: {
       name: 'double standard',
@@ -377,49 +377,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img7
-            }
-          }
+              url: img7,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '8'
+      id: '8',
     },
     fields: {
       name: 'double deluxe',
@@ -434,49 +434,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img8
-            }
-          }
+              url: img8,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '9'
+      id: '9',
     },
     fields: {
       name: 'family economy',
@@ -491,49 +491,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img9
-            }
-          }
+              url: img9,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '10'
+      id: '10',
     },
     fields: {
       name: 'family basic',
@@ -548,49 +548,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img10
-            }
-          }
+              url: img10,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '11'
+      id: '11',
     },
     fields: {
       name: 'family standard',
@@ -605,49 +605,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img11
-            }
-          }
+              url: img11,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '12'
+      id: '12',
     },
     fields: {
       name: 'family deluxe',
@@ -662,49 +662,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img12
-            }
-          }
+              url: img12,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '13'
+      id: '13',
     },
     fields: {
       name: 'presidential',
@@ -719,49 +719,49 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img1
-            }
-          }
+              url: img1,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
   },
   {
     sys: {
-      id: '14'
+      id: '14',
     },
     fields: {
       name: 'presidential',
@@ -776,44 +776,44 @@ export default [
       description:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolor accusantium ipsum qui tempora inventore culpa sequi labore dolorem consequatur distinctio similique molestias vero laborum, pariatur dignissimos ad eveniet. Modi beatae obcaecati sequi suscipit repellendus accusantium delectus, doloremque unde ex quod! Vero eligendi perspiciatis rerum nihil magni praesentium ratione enim totam a neque, modi aspernatur temporibus accusamus eveniet necessitatibus illo quibusdam? Suscipit quisquam nobis nulla, doloribus minus, fuga sint veritatis dolorum debitis, perspiciatis dolor magnam harum.',
       extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
+        'Unlimited complimentary hand sanitizer',
+        'Ultra pure, filtered tap water',
+        'Private security team oversight',
+        'Cruelty-free toiletries',
+        'Fully stocked in-room refrigerators',
+        'High speed, free wifi',
+        'High thread count bed linens',
       ],
       images: [
         {
           fields: {
             file: {
-              url: img3
-            }
-          }
+              url: img3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room2
-            }
-          }
+              url: room2,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room3
-            }
-          }
+              url: room3,
+            },
+          },
         },
         {
           fields: {
             file: {
-              url: room4
-            }
-          }
-        }
-      ]
-    }
-  }
+              url: room4,
+            },
+          },
+        },
+      ],
+    },
+  },
 ];
